@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C3333;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content{
+    text-align: center;
+    margin: 8% 0 0 0;
+}
+.img{
+    height: 20em;
+    /* margin: 12%; */
+    align-self: center;
+}
+.header{
+    /* font-family: 'Indie Flower', cursive; */
+    font-weight: 100;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 2.8em;
+    color: #1C0A00;
+}
+#mariam{
+  color: #F65A83;
+}
+.names{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 2.4em;
+    font-family: 'Satisfy', cursive;
+    color: #E5DCC3;
+
+}
+.auto-type{
+    /* font-family: 'Satisfy', sans-serif; */
+    font-family: 'Montserrat', cursive;
+    font-size: 0.9em;
+    color: #E6B325;
+}
+@media only screen and (min-width: 1022px) {
+    .content{
+        text-align: center;
+        margin: 2% 0 0 0;
+        
+    }
+    .img{
+        margin-top: 1%;
+        height: 25rem;
+        width: 20rem;
+
+    }
+    .header{
+        font-size: 4rem;
+    }
+    #mariam{
+        font-size: 5rem;
+    }
+    .auto-type{
+        font-size: 3rem;
+    }
+
+}
